@@ -1,5 +1,36 @@
 # Ferramenta-de-Risco---Aegis-
 
+# AegisRisk Lite - Gestão de Riscos Cibernéticos
+
+Este repositório contém a versão **Lite do AegisRisk**, uma aplicação web funcional, leve e portátil projetada para o apoio à análise de riscos de TI baseada nas diretrizes de segurança da **ISO/IEC 27005** e nos conceitos de cálculo de score do **CVSS v3.1**.
+
+Este projeto foi concebido sob a premissa de um desenvolvimento prático e objetivo para fins acadêmicos na disciplina de **Segurança Cibernética** do curso de **Análise e Desenvolvimento de Sistemas (ADS)**.
+
+## 🚀 Funcionalidades Ativas
+
+- **Cadastro de Ativos:** Mapeamento de ativos críticos com classificação básica de propriedades CIA (Confidencialidade, Integridade e Disponibilidade).
+- **Calculadora Dinâmica de Risco Inerente:** Cálculo instantâneo baseado em fatores clássicos de matrizes operacionais (Risco = Probabilidade x Impacto).
+- **Matriz de Calor (Heatmap) 5x5 em Tempo Real:** Distribuição dinâmica das ameaças cadastradas sobre os quadrantes de severidade técnica da matriz.
+- **Tratamento de Risco Residual:** Opção de alternar ações de mitigação do risco diretamente no painel, aplicando regras automáticas de amortecimento e reclassificação.
+- **Persistência Local (LocalStorage):** Não necessita de infraestrutura de banco de dados externa; os dados persistem no próprio escopo do navegador do usuário.
+
+## 🛠️ Tecnologias Empregadas
+
+- **HTML5** (Estruturação nativa sem dependências de compilação)
+- **Tailwind CSS** (Framework de design utilitário responsivo)
+- **JavaScript Puro (Vanilla JS)** (Engenharia lógica e manipulação reativa do DOM)
+- **Lucide Icons** (Biblioteca de ícones de interface)
+
+## 📁 Como Executar o Projeto
+
+1. Baixe o arquivo `index.html` presente neste repositório.
+2. Dê dois cliques sobre o arquivo para abri-lo diretamente no seu navegador padrão.
+3. Não há necessidade de executar comandos como `npm install` ou configurar um servidor externo. A aplicação roda nativamente.
+
+---
+*Desenvolvido como projeto prático acadêmico para avaliação na matéria de Segurança da Informação.*
+
+código:
 
 <!DOCTYPE html>
 <html lang="pt-BR" class="h-full bg-slate-950">
